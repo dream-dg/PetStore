@@ -1,0 +1,9 @@
+<!ELEMENT PETS (PET*) >
+
+<!ELEMENT PET (id, type, price) >
+
+<!ELEMENT id (#PCDATA)>
+
+<!ELEMENT type (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
